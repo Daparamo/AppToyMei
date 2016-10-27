@@ -1,0 +1,30 @@
+doctype html
+html(lang='en')
+  head
+    title ToyMei - Cardboard
+    meta(http-equiv='Content-Type', content='text/html; charset=utf-8')
+    meta(name='viewport', content='width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0')
+    meta(name='mobile-web-app-capable', content='yes')
+    meta(name='apple-mobile-web-app-capable', content='yes')
+    meta(name='apple-mobile-web-app-status-bar-style', content='black')
+    link(rel='manifest', href='manifest.json')
+  body
+    #example
+    #izq.txt
+    #der.txt
+
+    input#id_ejercicio(type='text', value = '#{id_ejercicio}', name='id_ejercicio', style="display:none")
+    link(rel='stylesheet', type='text/css', href='../css/estilos_juego.css')
+    link(rel='stylesheet', type='text/css', href='../css/sweetalert.css')
+    link(rel='stylesheet', type='text/css', href='../css/sweet-alert.css')
+
+    script(src='https://code.createjs.com/createjs-2015.05.21.min.js')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/three.js/r68/three.min.js')
+    script(src='../js/StereoEffect.js')
+    script(src='../js/DeviceOrientationControls.js')
+    script(src='../js/OrbitControls.js')
+    script(src='../js/cannon.js')
+    script(src='../js/sweet-alert.js')
+    script(src='../js/jquery-1.11.3.min.js')
+    script(src='../js/script_juego.js')
+
